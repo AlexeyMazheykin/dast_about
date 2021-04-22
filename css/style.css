@@ -235,3 +235,138 @@ img {
     left: 0;
     z-index: 99;
 }
+.dast__about section {
+    margin-bottom: 50px;
+}
+
+.dast__about-title {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+.dast__about-desc {
+    display: flex;
+}
+.dast__about-desc > * {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+}
+.dast__about-title_h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+}
+.dast__about-subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+.activity__list {
+    display: flex;
+    background: #F7F7F7;
+}
+.activity__list > * {
+    flex-basis: 20%;
+}
+.activity__item:not(:last-child) {
+    border-right: 1px solid #E8E8E8;
+}
+.activity__item-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0 17px;
+}
+
+.activity__image {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 38px;
+}
+.activity__image__title {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 21px;
+}
+.services__cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 207px);
+    row-gap: 40px;
+    column-gap: 27px;
+    margin-bottom: 30px;
+}
+.services__card {
+    position: relative;
+}
+.services__card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(89.78deg, #404464 0.15%, rgba(64, 68, 100, 0) 99.78%);
+    opacity: .61;
+    z-index: 2;
+}
+.services__card-lg {
+    grid-column: span 3;
+}
+.services__card-sm {
+    grid-column: span 2;
+}
+.services__card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.services__card-title {
+    position: absolute;
+    top: 153px;
+    left: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.075em;
+    font-weight: bold;
+    line-height: 23px;
+    z-index: 3;
+}
+.services__card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.services__advantages {
+    background: #F7F7F7;
+    display: flex;
+    padding: 32px 0 32px 40px;
+}
+.services__advantages-item {
+    flex-basis: 25%;
+}
+.services__advantages-title {
+    color: #2DA1DB;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+.services__advantages-desc {
+    max-width: 244px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+
+
+
+
+
